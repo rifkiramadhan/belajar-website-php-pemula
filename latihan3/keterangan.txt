@@ -1,0 +1,66 @@
+---- Keterangan Latihan 3 ----
+
+1. Persiapan Lingkungan Pengembangan PHP
+   - Web Server
+     - Apache
+       - http://httpd.apache.org/download.cgi
+   - Bahasa pemrograman
+     - PHP
+       - http://www.php.net/download.php    
+   - Database
+     - MYSQL
+       - https://dev.mysql.com/downloads/
+   - All-in-one-Packages
+     - WAMP (Windows Apache MYSQL PHP)
+       - Adalah sebuah software server side Apache untuk windows
+     - MAMP (Macintosh Apache MYSQL PHP)
+       - Adalah sebuah software server side Apache untuk Macintosh 
+     - LAMP (Linux Apache MYSQL PHP)
+       - Adalah sebuah software server side Apache untuk Linux
+     - XAMPP (Xrossplatform Apache MariaDB PHP Perl)
+       - Adalah sebuah software server side Apache untuk seluruh Sistem Operasi
+       - X nya adalah cross platform jadi huruf silang, artinya dia lintas Sistem Operasi
+       - MYSQL itu sudah dibeli oleh SUN yang membuat bahasa Java dan SUN sudah dibeli oleh Oracle jadi MYSQL hak cipta
+         nya sudah dimiliki oleh Oracle, jadi mungkin ada kendala di open source nya, sehingga komunitas nya membuat sendiri
+         versi open source nya dari MYSQL yaitu MariaDB, semua fungsionalitas MYSQL bisa dilakukan oleh MariaDB bahkan koeksinya
+         tetap menggunakan MYSQL, dan ada bahasa PHP serta Perl tapi Perl tidak akan digunakan
+       - https://www.apachefriends.org/download.html
+2. Pengertian
+   - Client-side VS server-side scripting
+     - Client-side
+       - Ketika kita membuat website menggunakan HTML, CSS, dan JS itu disebut dengan Client-side scripting, karena semua
+         pemrosessan nya terjadi di sisi client atau di komputer masing-masing
+     - Server-side scripting
+       - Arsitekturnya sedikit lebih kompleks, seperti ada web browser yang membuka halaman HTML, CSS dan JS tapi sekarang
+         ada sebuah server
+       - Jadi yang terjadi saat website kalian itu dibuat dengan bahasa PHP didalamnya, maka yang terjadi adalah pada saat
+         kalian membuka websitenya lewat browser nah browser tersebut mengirimkan sebuah request, jadi dia meminta sesuatu
+         ke server, nah web server itu ada banyak macamnya, seperti
+         - Apache
+         - IIS
+         - Nginx
+         - Tomcat
+         - Lighttpd
+         - Dll
+         - Ini adalah web server yang menerima request / permintaan dari client, karena yang terjadi sekarang prosesnya
+           tidak terjadi disisi client tapi terjadi disisi server
+         - Karena ada bahasa pemrograman yang berjalannya di server, contohnya
+           - PHP
+           - ASP
+           - Ruby
+           - Python
+         - Jadi ketika halaman web yang dibuka itu didalamnya terdapat salah satu bahasa ini, maka ketika dijalankan servernya
+           akan mengelola permintaan itu
+         - Jadi ketika hello world HTML dijalankan maka web browser akan meminta ke server, nanti diserver dia akan membaca apakah didalam
+           halaman tersebut ada bahasa pemrograman PHP atau tidak ?, jika tidak, berarti web servernya akan langsung merespon
+           kembali permintaannya, jadi hasil outputnya akan tampil ke layar. Ketka didalam halaman tersebut ada sintaks PHP
+           misalnya judul website diganti menjadi nama sendiri, jadi yang terjadi adalah browser merequest ke server dan nanti
+           servernya melihat bahwa terdapat sintaks PHP nah begitu ketemu sintaks PHP maka PHP akan mengeksekusi scrip tadi
+           misalkan ada script yang namanya echo dari bahasa PHP, maka dia akan mencetak sesuatu ke layar dan nanti nama yang
+           telah dirubah dari hello world ke nama sendiri akan dicetak ke layar / dikembalikan lagi sebagai respon ke client
+         - Itulah mengapa bahasa pemrograman server atau PHP itu tidak bisa dicontek, beda halnya seperti HTML bila dibuka
+           melalui view source nanti akan keluar bahasa HTML nya dan bila terdapat script CSS dan JS juga dapat dilihat, tetapi
+           kalau PHP tidak bisa dilihat, karena semua pemrosesannya terjadi diserver, server akan mengembalikan berupa HTML lagi
+         - Jadi misalkan membuat website pakai PHP setelah tampil dilayar dan view source maka sintaks PHP nya tidak akan terlihat
+           dan script-script yang berhubungan dengan server tadi jika di gunakan maka dapat terhubung kedalam database, sehingga
+           membuat website menjadi dinamis, dan konten nya bisa berubah sesuai data yang dubah pada databasnya

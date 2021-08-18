@@ -1,0 +1,87 @@
+---- Keterangan Latihan 2 ----
+
+1. Sejarah PHP
+   - PHP dibuat oleh Rasmus Lerdof
+     - Beliau menciptakan PHP pada tahun 1994, pada awalnya sebelumnya dia tidak bermaksud untuk menciptakan bahasa
+       pemrograman, jadi awalnya dia membuat sebuah program dalam bahasa C untuk mengelola halaman pribadinya atau
+       personal home page dia, oleh karena itu kenapa disebut PHP ?, karena awalnya PHP itu adalah personal home page
+       untuk bapak Rasmus Lerdof, lalu halaman web yang dibuat ini didalamnya dibuat sebuah form untuk terhubung kedalam
+       database, jadi ada form yang dihubungkan kedalam database untuk mengelola data dia, jadi pertama dibuat untuk
+       aplikasi bapak Rasmus Lerdof adalah
+       - PHP/FI, 1994
+         - Personal Home Page / Form Interpreter, jadi dia membaca form untuk terhubung kedalam database
+       - PHP Tools V.1, 1995
+         - Karena programnya banyak yang minat, sehingga dibuat untuk dirinya dan orang lain dalam bentuk open source
+       - PHP Tools V.2, 1997
+         - Karena programnya sudah banyak yang pakai, dan mulai berkembang dibuatlah versi selanjutnya
+       - PHP 3, 1998
+         - Ada 2 orang yang membantu mengembangkan bahasa PHP ini
+           - Zeev Suraski & Andi Gutmans
+             - Yang membuat perusahaan bernama Zen Technologies
+       - PHP: Hypertext Preprocessor
+         - Kedua orang ini adalah yang membuat parser didalam PHP, parser ini adalah sebuah program untuk membaca
+           sintaks PHP, supaya PHP nya bisa mengetahui kodingan yang kita tulis
+         - Jadi PHP nya sudah bukan singkatan lagi, jadi namanya ini Rekursif, PHP: Hypertext Preprocessor
+       - PHP 4, 2000
+         - Zend Engine
+           - Adalah mesin untuk mengelola PHP nya adalah Zend Engine, jadi Interpreter nya namanya Zend Engine yang
+             diciptakan oleh Zend Technologies ini
+       - PHP 5, 2004
+         - PHP versi 5 ini termasuk updatean baru PHP yang paling besar, karena didalamnya tersimpan banyak fitur-fitur
+           dan fungsionalitas-fungsionalitas kedalam library nya
+         - Zend Engine 2, yang telah diperbaiki versi 2
+         - Kenapa dibilang paling besar dan mulai hebat, karena PHP nya sudah bisa melakukan Object Oriented Programming
+           (OOP) walaupun belum 100% seperti yang dilakukan oleh java, tapi kita sudah bisa melakukan abstraksi seperti
+           - Membuat Class
+           - Pewarisan (Inheritance)
+         - Lalu di PHP versi 5 itu mulai dikenalkan
+           - PHP Data Object (PDO)
+             - PDO itu adalah mesin pada PHP yang bisa mengelola beragam database, sebelumnya PHP juga bisa macam-macam
+               database, tapi mesin untuk mengelola databasenya itu sesuai dengan database yang digunakan, misalnya kita
+               menggunakan databse MYSQL, maka sintaks PHP nya semuanya nanti berhubungan dengan MYSQL
+             - Jadi kalau misalkan suatu saat kita pengen, berubah database nya, misalkan yang tadinya MYSQL berubah
+               menjadi Postgree SQL, itu artinya kita harus menulis ulang program kita yang tadinya MYSQL harus kita ubah
+               semua menjadi Postgree SQL / Oracle / dll
+             - Dengan menggunakan PDO kita cukup mengganti nama databasse nya saja, jadi tidak perlu merubah seluruh
+               arsitektur program kalian
+       - 2008, PHP 4 berhenti dikembangkan
+         - Pada tahun 2008 perkembangan PHP versi 4 berhenti dikembangkan, tadinya berkembangnya paralel jadinya PHP 4
+           dikembangkan, PHP 5 juga dikembangkan, kenapa ? karena banyak server yang masih PHP 4
+           - Karena Gerakan PHP 5
+             - Jadi semua disarankan untuk berpindah / migrasi dari PHP 4 ke PHP 5
+       - PHP 6
+         - Mungkin kita tidak pernah mendengar bahwa ada PHP versi 6, kenapa ? Jadi PHP versi 6 itu karena projectnya
+           ditunda lalu pada akhirnya dibatalkan atau digagalkan, karena PHP 6 ini tadinya dia mau memperbaiki masalah
+           pada unicode, dan unicode ini adalah bagaimana PHP ini menangani penulisan dengna berbagai macam bahasa
+         - Jadi inginnya PHP ini tidak menangani tidak hanya huruf latin tetapi juga dengan banyak bahasa, dan karena
+           ini menjadi masalah jadi versi ini ditunda sehingga fokus di
+       - PHP 5.4, 2010
+         - Jadi kembangkan terus fungsionalitas PHP nya, dan tidak mengurus unicode tadi
+         - Dan PHP 5 ini sampai sekarang masih dikembangkan
+       - PHP 7, 2014
+         - Pada hun 2014 dikembangkan PHP 7 dan sampai saat ini masih dikembangkan
+         - Jadi sekarang ada 2 versi, ada versi 5 dan 7
+         - Dan PHP 7 ini lebih bagus lagi karena ada Zend Engine 3, jadi lebih cepat dan performance nya lebih bagus,
+            lebih secure, dll
+
+2. Gambar PHP
+   - Sebetulnya PHP itu icon/mascot yang bernama elePHPant, ini diciptakan oleh Vincient Pontier
+
+3. Karakteristik PHP
+   - Ekstensi file .PHP
+     - Pada saat membuat file project baru ekstensinya harus .php
+     - Meskipun nanti didalam php nya tidak ada sintaks PHP itu tidak masalah misal isinya HTML semua itu tidak masalah,
+       karena nanti didalam file PHP ini boleh hanya HTML saja, boleh PHP saja, atau campuran keduanya
+   - Ditulis dalam tag PHP
+     - Setiap sintaks PHP nya harus ditulis dengan tag php, atau sebetulnya bukan tag sih namanya, tetapi
+       - Delimiter (Pembatas)
+         - Diawali dengan <?php
+         - Diakhiri dengan ?>
+   - Bisa digunakan bersamaan dengan HTML
+     - Kita bisa menulis bahasa pemrograman PHP didalam HTML atau sebaliknya, kita menulis bahasa pemrograman HTML
+         didalam PHP
+   - Mengikuti bahasa C
+     - Karena PHP dibuat menggunakan bahasa C, maka sintaks PHP juga mengikuti kaidah-kaidah didalam bahasa C
+       - Case Sensitify
+         - Jadi huruf besar / kecil berpengaruh
+         - Harus selalu diakhiri dengan titik koma tiap satu perintahnya
