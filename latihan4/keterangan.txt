@@ -1,0 +1,23 @@
+---- Keterangan Latihan4 ----
+
+1. Pengertian
+   - Ketika membuat file index.php maka yang pertama kali dijalankan adalah file index.php pada tampilan browser
+   - Isi dari materi ini adalah sintaks dasar pemrograman PHP
+   - Bahasa pemrograman PHP scriptnya tidak dapat dicontek melalui browser dan yang keluar adalah bahasa pemrograman HTML
+     ketika dilihat melalui inspect element
+   - Di PHP sama dengan javascript, kita tidak perlu mendefinisikan tipe datanya untuk sebuah nilai yang akan ditampung
+     ke variabel, kita cukup buat variabel lalu diisi dengan nilai
+
+1. Materi yang dibahas
+   - Standar Output, Adalah sebuah perintah di PHP yang digunakan untuk menampilkan sesuatu ke layar atau istilahnya mencetak sesuatu
+     ke layar
+     - echo
+       - Untuk mencetak ke layar
+     - print
+       - Untuk mencetak tulisan, variabel, dll
+     - print_r
+       - Khusus digunakan untuk mencetak isi array
+     - var_dump
+       - Biasanya digunakan untuk melihat isi dari variabel, nanti akan tampil informasi mengenai variabel tersebut
+     - print_r dan var_dump
+       - Biasanya digunakan untuk debugging atau mencari kesalahan program aplikasi dan membaca variabel

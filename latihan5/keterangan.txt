@@ -1,0 +1,23 @@
+---- Keterangan Latihan 5 ----
+
+1. Pengertian
+   - Control Flow / Struktur Kendali, Adalah bagaimana alur dari program kita ketika dibaca oleh interpreter PHP, jadi
+     ketika sebelumnya normalnya bahahasa PHP itu dibaca dari atas ke bawah dan dari kiri ke kanan, sekarang kita bisa
+     mengatur alur pembacaan programnya bisa saja tidak seperti itu
+     - Pengulangan
+       - Adalah ketika kita ingin mengerjakan sebuah blok program tanpa harus menulis ulang script nya, dan dalam 
+         pengulangan ini ada beberap sintaks yang harus dipahammi
+         - for
+         - while
+         - do.. while
+         - foreach
+           - Adalah pengulangan yang spesifik untuk array
+     - Pengkondisian / Percabangan
+       - Digunakan untuk menentukan apa yang akan terjadi ketika kita membuat sebuah pernyataan, jika pernyataan tersebut
+         bernilai true apa yang akan terjadi ?, dan ketika bernilai false apa yang akan terjadi ?
+         - if.. else
+         - if.. else if.. else
+         - ternary
+           - Adalah operator untuk menggantikan sintaks if dan else yang sederhana
+         - switch
+           - Ketika if else nya sudah terlalu banyak maka bisa disingkat menggunakan switch

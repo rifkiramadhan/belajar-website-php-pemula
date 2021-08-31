@@ -1,0 +1,47 @@
+---- Keterangan Latihan 6 ----
+
+1. Pengertian
+   - Function
+     - Adalah singkatnya potongan program atau baris-baris kode yang kita buat untuk mempermudah kita pada saat membuat
+       program, dan kode program tadi bisa kasih nama lalu bisa kita panggil berulang-ulang, nah itu adalah kelebihan dari
+       function, didalam bahasa PHP terdapat 2 jenis function
+       - Built-in Function / Fugsi yang sudah disediakan oleh PHP
+         - Link: http://php.net/manual/en/funcref.php
+         - Date / Time
+           - Digunakan untuk fungsi yang berhubungan dengan waktu
+           - time()
+           - date()
+           - mktime() / Mc Time
+           - strtotime() / String to Time
+         - String
+           - strlen() / String Length
+             - Untuk menghitung panjang sebuah string
+           - strcmp() / String Compare
+             - Untuk membandingkan 2 buah string
+           - explode()
+             - Untuk memecah sebuah string menjadi array
+           - htmlspecialchars()
+             - Function khusus untuk menjaga kita dari orang yang iseng mau masuk ke website kita, misalkan hacker
+         - Utility / Fungsi bantuan
+           - var_dump()
+             - Adalah sebuah fungsi untuk mencetak isi dari sebuah variabel, array, dan object
+           - isset()
+             - Untuk mengecek apakah sebuah variabel sudah pernah dibuat atau belum, dan isset akan menghasilkan nilai
+               boolean true / false, ketika kita belum membuat sebuah variabel maka isset akan menghasilkan false 
+           - empty()
+             - Untuk mengecek apakah variabel yang ada itu kosong atau tidak, ada isinya atau tidak
+           - die()
+             - Untuk memberhentikan program kita, jadi ketika didalam baris program terdapat die maka program dibawahnya
+               itu tidak akan dieksekusi
+           - sleep()
+             - Untuk memberhentikan sementara, misalkan nanti diberikan sleep 2 detik nanti begitu ketemu baris itu maka
+               programnya berhenti dulu 2 detik, kemudian dijalankan kembali
+       - User-Defined Function / Fungsi yang nantinya kita buat sendiri
+         - Yaitu fungsi yang dibuat sendir, karena meskipun PHP memiliki ratusan fungsi yang dapat dipakai kemungkinan 
+           besar kita tetap butuh untuk membuat fungsi sendiri yang kita inginkan
+
+2. Perbedaan
+   - User-Defined Function, Kita tidak dapat bisa memanggil fungsinya sebelum dibuat terlebih dahulu
+   - Built-in Function, Kita bisa memanggilnya walaupun tidak dibuat terlebih dahulu fungsinya
+
+         
