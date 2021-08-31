@@ -1,0 +1,22 @@
+---- Keterangan Latihan 9 ----
+
+1. Pengertian
+   - Superglobals
+     - Adalah variabel yang dimiliki oleh bahasa PHP, nama variabelnya adalah variabel spesial, yang bisa diakses dimana
+       pun dan kapan pun dalam halaman PHP kita, ada banyak variabel Superglobals yang sudah dimiliki PHP
+       - $_GET
+         - Adalah metode pengiriman data melalui URL dan data tersebut bisa di ambil atau di tangkap oleh variabel
+           Superglobals $_GET
+       - $_POST
+       - $_REQUEST
+       - $_SESSION
+       - $_COOKIE
+       - $_SERVER
+       - $_ENV / Environment
+     - Dari semua variabel Superglobals ini semua tipenya adalah array assosiative, jadi perlakukanlah sebagaimana
+       memperlakukan array assosiative
+   - Variabel Scope / Lingkup Variabel
+
+2. Perbedaan
+   - $_GET ada di URL, tapi $_POST tidak ada di URL ketika disubmit, jadi lebih aman ketika menggunakan method $_POST
+     untuk metoide pada form login

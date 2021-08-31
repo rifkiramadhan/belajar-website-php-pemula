@@ -1,0 +1,12 @@
+---- Keterangan Latihan 8 ----
+
+1. Pengertian
+   - Array Assosiative
+     - Sebuah variabel yang bisa memiliki banyak nilai
+     - Pasangan antara key dan value
+     - Perbedaannya pada array Assosiative key nya adalah string yang kita buat senndiri, jadi definisinya sama
+       seperti array numeric kecuali string yang kita buat sendiri
+
+2. Perbedaan
+   - print_r() Itu lebih ringkas penulisannya dari pada var_dumb(), 
+     karena tidak ada tipe data, jumlah karakter didalam elemen nya

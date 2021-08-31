@@ -1,0 +1,13 @@
+---- Keterangan Latihan 7 ----
+
+1. Pengertian
+   - Array
+     - Adalah sebuah variabel yang bisa menampung lebih dari satu nilai
+     - Niliai yang ada di dalam Array disebut elemen
+     - Elemen pada array boleh memiliki tipe data yang berbeda
+     - Definisi array adalah pasangan antara key dan value, key nya adalah index yang dimulai dari 0
+   - Array Numeric 
+     - adalah array yang index nya angka Untuk menghindari array numeric adalah array nya harus diperbaiki, 
+       caranya dengan mengubah array nya bukan lagi array numeric, tapi menjadi array assosiative dimana index nya 
+       bukan lagi angka tapi indeks nya adalah string yang kita buat sendiri untuk mengasosiasikan ke nilai yang ada 
+       di dalam array nya

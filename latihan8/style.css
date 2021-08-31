@@ -1,0 +1,24 @@
+.kotak {
+    width: 30px;
+    height: 30px;
+    background-color: #bada55;
+    text-align: center;
+    line-height: 30px;
+    margin: 3px;
+    float: left;
+    transition: 1s;
+}
+
+.kotak:hover {
+    transform: rotate(360deg);
+    border-radius: 50px;
+}
+
+.clear {
+    clear: both;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
