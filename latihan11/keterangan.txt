@@ -1,0 +1,5 @@
+---- Keterangan Latihan 11 ----
+
+1. Ringkasan
+   - Atribut for harus sama value nya dengan id, supaya jika label ditekan maka input akan aktif
+   - Tag baru di bahasa HTML5 selain input yang berfungsi sebagai tombol adalah tag button

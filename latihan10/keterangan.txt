@@ -1,0 +1,85 @@
+---- Keterangan Latihan 10 ----
+
+1. Pengertian
+   - Data
+     - Adalah representasi fakta di dunia nyata
+   - DBMS
+     - Adalah sebuah software atau aplikasi yang bisa menampung banyak database di dalamnya, jadi sebetulnya datanya ada di dalam database dari
+       segi aturan, keamanan, hak aksesnya itu ada di dalam database dan DBMS mampu mengelola banyak database dan jenis-jenis DBMS ini pun banyak
+       - Relational DBMS (MySQL)
+         - Pada saat kita membuat database pasti kita akan membuat tabel, dan tabelnya bisa banyak di dalam databasenya misalkan ingin membuat data
+           base universitas, pasti di dalamnya punya banyak tabel, dan masing-masing tabel bisa saling menghubungkan menggunakan sebuah relasi dari
+           tiap tabel yang terdiri dari baris dan kolom]
+         - Didalam sebuah tabel itu ada sebuah konsep yang bernama primary key atau kunci utama, ini sangat penting dipahami karena rasanya setiap tabel
+           itu harus memiliki sebuah primary key
+           - Primary Key
+             - Sebuah data yang dapat merepresentasikan satu baris record secara unik, dan unik itu artinya tidak boleh terdapat satu data yang sama dalam
+               satu tabel yang telah dibuat, contohnya satu nomor registrasi mahasiswa hanya untuk satu mahasiswa terdaftar
+       - Hierarchical DBMS
+       - Network DBMS
+       - Mongo DB => NoSQL DBMS
+     - DBMS memiliki bahasa yang sama untuk berinteraksi dengan datanya
+   - Database
+     - 
+
+
+2. Permasalahan
+   - Masalah menggunakan database
+     - Kapasitas
+       - Karena semakin lama pasti ukuran file nya semakin membengkak / besar
+     - Kecepatan
+       - Untuk, akses, mencari,dll pasti akan semakin lama apa bila tidak memiliki aturan yang jelas karena semakin banyak datanya
+     - Keamanan
+       - Siapa yang bisa mengakses datanya ?, Lalu apakah datanya akan dapat dengan mudah dilihat oleh orang lain?, dimodifikasi oleh orang lain?,
+         nah disini ada problem dari sisi keamanan
+     - Duplikasi
+       - Bagaimana jika terdapat data yang sama yang sudah pernah masuk kedalam tabelnya, apakah itu bisa ditangani ?, hal ini juga menjadi masalah
+     - dll
+   - Solusi untuk masalah ini
+     - Skalabilitas
+       - Kita harus memiliki sistem yang bisa menangani Skalabilitas, artinya kalau misalkan datanya bertambah maka sistem atau aplikasinya mampu
+         untuk menangani masalh itu
+     - Tersedia
+       - Ketersediaan data kapanpun kita minta, kapanpun kita cari maka datanya ada
+     - Security / Keamanan
+       - Apakah data yang sudah kita buat itu aman atau tidak ?
+     - Permanent
+       - Apakah data yang sudah kita buat itu permanent atau tidak datanya ?
+       - Contohnya ketika kita membuat data menggunakan array, dan disimpan kedalam array begitu halaman di refresh maka data akan hilang karena tidak
+         permanent, karena menggunakan array datanya hanya ada di dalam memory saja
+     - dll
+     
+3. Istilah
+   - Field / Column
+   - ROW
+     - Baris atau record
+   - Key
+     - Kunci didalam tabel atau atau database itu ada banyak
+       - Primary Key
+       - Foreign Key
+       - 
+   - Auto Increment
+     - Fitur dari database untuk menambah nilai satu persatu tiap recordnya masuk
+   - Relationship
+     - Hubungan antar tabel yang dapat didefinisikan ketika membuat tabel
+   - Normalization
+     - Sebuah proses untuk membuat tabel didalam database menjadi normal
+
+
+3. Perintah CMD Berpindah Folder File
+   C:\Users\Rifki\cd.. [Enter]
+   C:\Users\Rifki\cd \ [Enter]
+   C:\>cls [Enter]
+   C:\>cd xampp [Enter]
+   C:\>cd bin [Enter]
+   C:\>mysql -u root -p [Enter]
+
+4. Untuk menghubungkan halam PHP dengan MySQL
+   - Ekstensi MySQL
+     - Ini adalah ekstensi versi php 5 yang sudah tidak diupdate dan banyak sekali celah keamanan nya
+   - Ekstensi MySQLi
+     - Dengan menggunakan MySQLi arti i kecil nya ini adalah improve atau yang sudah diperbaiki, artinya lebih baik dan lebih teroptimasi serta lebih aman
+     - Dengan menggunakan MySQLi database yang ingin berubah maka codingannya harus dirubah semuanya
+   - PDO (PHP Data Object)
+     - Adalah driver untuk terhubung kedalam database sama seperti MySQLi, tapi dengan PDO kita bisa terhubung ke banyak database
+     - Jadi jika suatu saat database yang kita buat ganti dari MySQLi menjadi PostgreeSQL tidak banyak kode yang harus diubah

@@ -1,0 +1,56 @@
+---- Database Latihan 10 ----
+
+=============================
+1. Database : phpdasar
+2. Tabe     : mahasiswa
+
+=============================
+1. id	    : int primary key auto_increment
+2. nama	    : varchar(100)
+3. nrp	    : varchar(10)
+4. email    : varchar(100)
+5. jurusan  : varchar(100)
+6. gambar   : varchar(100)
+
+- Cara Membuat Database dan Tabel: 
+1. Buka Shell pada XAMPP
+2. Ketik mysq -u root -p (Bila tidak dipassword)
+3. Ketik create database phpdasar;
+4. Ketik show databases;
+5. Ketik use phpdasar;
+6. Ketik create table mahasiswa (
+   -> id int primary key auto_incerment,
+   -> nama varchar(100),
+   -> nrp char(9),
+   -> email varchar(100),
+   -> jurusan varchar(100),
+   -> gambar varchar(100)
+   -> );
+7. Ketik show tables;
+8. Ketik describe mahasiswa;
+
+- Cara Membuat Isi Tabel
+1. Ketik insert into mahasiswa values 
+   ('', 'Rifki Ramadhan', '043040023', 
+   'riifkiramadhan2@gmail.com', 'Teknik Informatika', 
+   '1.jpg');
+2. Ketik select * from mahasiswa;
+3. Ketik select nrp from mahasiswa;
+4. Ketik select nama, nrp from mahasiswa;
+5. Ketik select * from mahasiswa where nrp = '043040023';
+
+- Cara Merubah dan Menghapus Data dari Tabel
+1. Ketik update mahasiswa set jurusan = 
+   'Teknik Informatika' where id = 2;
+2. Ketik select * from mahasiswa;
+3. Ketik delete from mahasiswa where id = 2;
+4. Ketik select * from mahasiswa;
+
+- Cara Menghapus Database dan Table
+1. Ketik drop table mahasiswa;
+2. Ketik select * from mahasiswa;
+3. Ketik show tables;
+4. Ketik drop database phpdasar;
+5. Ketik show databases;
+
+
