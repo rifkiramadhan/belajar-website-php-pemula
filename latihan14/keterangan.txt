@@ -1,0 +1,35 @@
+---- Keterangan Latihan 14 ----
+
+1. Pengertian
+   - File Handling
+     - Artinya bagaimana cara kita menangani file menggunakan sintaks PHP
+     - Contoh:
+       - <input type='file' ...
+       - enctype
+         - Kepanjangannya adalah encoding type, jadi type encoding seperti apa yang harus kita gunakan untuk menangani file, karena sebelumnya
+           yang kita tangani hanya teks nya saja
+       - $_FILES (Salah satu variabel supperglobals)
+         - Supperglobals ini khusus dibuat untuk menangani data file setelah input type file
+       - move_uploaded_file
+         - Dimana fungsi inilah yang betul-betul memindahkan atau mengupload file yang kita punya dikomputer kedalam server, walaupun agak membingungkan
+           karena client dan servernya ada dikomputer yang sama
+         - Kita dapat memasukan gambar langsung kedalam MySQL, karena didalam MySQL terdapat tipe data yang namanya blob (Binary Large Object), artinya
+           dimana kita bisa menyimpan file kedalam MySQL dalam bentuk binary atau binner
+   - explode
+     - Adalah sebuah fungsi untuk memecah sebuah string menjadi array, dan memecahnya menggunakan yang dinamakan menggunakan delimiter, jadi begitu dalam satu
+       string itu ketemu karakter apa maka stringnya akan dipecah menjadi array
+   - strtolower
+     - Adalah fungsi untuk merubah semua tulisan format gambar menjadi format huruf kecil semua
+   - uniqid()
+     - Akan membangkitkan string secara random angka yang nantinya akan menjadi nama gambar ketika diuplad agar gambar yang diupload tidak bentrok ketika nama
+       gambar nya ada yang sama, tetapi baru angka nya saja yang dirandong belum ekstensi nama file nya (.png)
+
+2. Ringkasan
+   - Atribut for harus sama value nya dengan id, supaya jika label ditekan maka input akan aktif
+   - Tag baru di bahasa HTML5 selain input yang berfungsi sebagai tombol adalah tag button
+   - Untuk mengisi data di dalam elemen form ubah kita bisa mengisi atribut elemen html bernama value
+   - ID tidak boleh diganti karena id adalah primary key yang tidak boleh diduplikat datanya, jika diduplikat maka akan error
+   - Dengan menggunakan like pada SQL istilahnya kita dapat menambahkan wildcard, artinya tidak perduli apapun nama depan setelah yang diketik,
+     artinya apapun yang nama depannya sama maka akan tampil semua text yang nama depannya sama jika diketik dalam kolom pencarian
+   - Untuk membuat nama depan dan nama belakang dapat dicari pada kolom pencarian maka menggunakan wildcard 2x setelah LIKE %$namaVariabel%
+  

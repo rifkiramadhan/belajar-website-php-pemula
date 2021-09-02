@@ -1,4 +1,4 @@
----- Keterangan Latihan 11 ----
+---- Keterangan Latihan 12 ----
 
 1. Ringkasan
    - Atribut for harus sama value nya dengan id, supaya jika label ditekan maka input akan aktif

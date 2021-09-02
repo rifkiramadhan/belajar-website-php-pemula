@@ -5,7 +5,8 @@
     // Mengecek apakah tombol submit sudah ditekan atau belum
     if( isset($_POST["submit"]) ) { 
 
-        // var_dump($_POST);
+        // var_dump($_POST); 
+        // var_dump($_FILES); die;
 
         // Mengecek apakah data berhasil ditambahkan atau tidak
         if( tambah($_POST) > 0 ) {
@@ -15,7 +16,7 @@
                   </script>";
         } else {
             echo "<script>
-                        alert('Data gaga ditambahkan');
+                        alert('Data gagal ditambahkan');
                         document.location.href = 'index.php';
                   </script>";        }
 
@@ -35,7 +36,7 @@
 
     <h1>Tambah data mahasiswa</h1>
 
-    <form action="" method="post">
+    <form action="" method="post" enctype="multipart/form-data">
         <ul>
             <li>
                 <label for="nrp">NRP : </label>
@@ -55,7 +56,7 @@
             </li>
             <li>
                 <label for="gambar">Gambar : </label>
-                <input type="text" name="gambar" id="gambar" required>
+                <input type="file" name="gambar" id="gambar">
             </li>
             <li>
                 <button type="submit" name="submit">Tambah Data</button>
