@@ -1,0 +1,27 @@
+---- Keterangan Latihan 19 ----
+
+1. Pengertian
+   - Pagination
+     - Adalah sebuah teknik untuk membatasi data yang tampil di halaman web menjadi beberapa halaman
+     - Misalnya dengan menggunakan limit, kita bisa batasi mau berapa data yang ditampilkan dalam tiap slide
+   - count
+     - Untuk menghitung ada berapa elemen yang ada di dalam array associative / array apapun
+   - round
+     - Untuk membulatkan bilangan pecahan ke desimal terdekatnya
+   - floor
+     - Untuk menghitung pembulatan kebawah berapapun nilai pecahannya
+   - Ceiling
+     - Untuk menghitung pembulatan keatas berapapun nilai pecahannya
+
+
+2. Ringkasan
+   - Atribut for harus sama value nya dengan id, supaya jika label ditekan maka input akan aktif
+   - Tag baru di bahasa HTML5 selain input yang berfungsi sebagai tombol adalah tag button
+   - Untuk mengisi data di dalam elemen form ubah kita bisa mengisi atribut elemen html bernama value
+   - ID tidak boleh diganti karena id adalah primary key yang tidak boleh diduplikat datanya, jika diduplikat maka akan error
+   - Dengan menggunakan like pada SQL istilahnya kita dapat menambahkan wildcard, artinya tidak perduli apapun nama depan setelah yang diketik,
+     artinya apapun yang nama depannya sama maka akan tampil semua text yang nama depannya sama jika diketik dalam kolom pencarian
+   - Untuk membuat nama depan dan nama belakang dapat dicari pada kolom pencarian maka menggunakan wildcard 2x setelah LIKE %$namaVariabel%
+   - Untuk membuat backslash tidak masuk kedalam database atau membersihkan database maka kita harus menggunakan stripslashes 
+   - Untuk membuat karakter text menjadi huruf kecil ketika di input maka kita harus mengunakan strtolower
+   - Untuk memungkinkan user memasukkan password terdapat tanda kutipnya, dan tanda kutipnya akan dimasukkan kedalam database secara aman menggunakan mysqli_real_escape_string()

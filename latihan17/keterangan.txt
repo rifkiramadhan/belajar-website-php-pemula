@@ -1,0 +1,33 @@
+---- Keterangan Latihan 17 ----
+
+1. Pengertian
+   - Session
+     - Adalah mekanisme penyimpanan informasi ke dalam variabel agar bisa digunakan di lebih dari satu halaman
+     - Berfungsi untuk ketika iser tidak bisa mengakses halaman tertentu sebelum dia melakukan aksi login terlebih dahulu
+     - Ketika kita membuat variabel dan nilai di dalam variabel itu hanya bisa di pakai di satu halaman itu saja, dia tidak bisa 
+       di pakai di halaman lain kecuali kita kirimkan datanya atau kita kirimkan nilai di dalam variabel itu, sampai saat ini kita
+       sudah coba dua cara yaitu dengan menggunakan Get dan menggunakan Post, jadi sebetulnya kita bisa menggunakan nilai dari variabel
+       tersebut asal datanya dikirimkan, jika dikirimkan melalui URL itu kita bisa menggunakan Get sedangkan jika dikirimkan melalui form
+       itu kita dapat menggunakan Post
+     - Dengan menggunakan session datanya tidak hanya di dua halaman seperti Get dan Post, tetapi jika menggunakan session itu bisa di semua
+       halaman, lalu informasi pada session itu di simpan di server, jadi begitu kita menyimpan sebuah variabel kedalam session, maka variabel
+       itu akan dibuatnya di server
+     - Session dan Cookie itu sama-sama adalah sebuah informasi atau nilai yang bisa kita gunakan di berbagai halaman, tapi bedanya jika session
+       disimpan di server sedangkan cookie disimpan di client atau di dalam browser nya
+     - Dengan mekanisme session ini maka data atau informasi yang bisa kita kelola itu akan ditangani oleh oleh sebuah variabel supperglobal yaitu
+       $_SESSION
+     - Untuk mengisikan data ke dalam $_SESSION syaratnya kita harus menjalankan terlebih dahulu sebuah function session_start() sebelum kita 
+       menuliskan sintaks html nya atau pada tag PHP paling atas
+   - Cookie    
+          
+2. Ringkasan
+   - Atribut for harus sama value nya dengan id, supaya jika label ditekan maka input akan aktif
+   - Tag baru di bahasa HTML5 selain input yang berfungsi sebagai tombol adalah tag button
+   - Untuk mengisi data di dalam elemen form ubah kita bisa mengisi atribut elemen html bernama value
+   - ID tidak boleh diganti karena id adalah primary key yang tidak boleh diduplikat datanya, jika diduplikat maka akan error
+   - Dengan menggunakan like pada SQL istilahnya kita dapat menambahkan wildcard, artinya tidak perduli apapun nama depan setelah yang diketik,
+     artinya apapun yang nama depannya sama maka akan tampil semua text yang nama depannya sama jika diketik dalam kolom pencarian
+   - Untuk membuat nama depan dan nama belakang dapat dicari pada kolom pencarian maka menggunakan wildcard 2x setelah LIKE %$namaVariabel%
+   - Untuk membuat backslash tidak masuk kedalam database atau membersihkan database maka kita harus menggunakan stripslashes 
+   - Untuk membuat karakter text menjadi huruf kecil ketika di input maka kita harus mengunakan strtolower
+   - Untuk memungkinkan user memasukkan password terdapat tanda kutipnya, dan tanda kutipnya akan dimasukkan kedalam database secara aman menggunakan mysqli_real_escape_string()
