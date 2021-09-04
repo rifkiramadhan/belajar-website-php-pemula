@@ -1,0 +1,17 @@
+label {
+    display: block;
+}
+
+p {
+    color: red;
+    font-style: italic;
+}
+
+.loader {
+    width: 100px;
+    position: absolute;
+    top: 118px;
+    left: 210;
+    z-index: -1;
+    display: none;
+}

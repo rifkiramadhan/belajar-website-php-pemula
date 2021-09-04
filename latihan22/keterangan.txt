@@ -1,0 +1,34 @@
+---- Keterangan Latihan 22 ----
+
+1. Pengertian
+   - PDF Reporting (PHP to PDF)
+     - Dengan mengubah script PHP ke file PDF itu memungkinkan kita untuk membuat
+       - Laporan Rekapitulasi sebuah data
+       - Kuitansi / Invoice / Faktur
+       - Form isian
+       - dll
+     - Cara membuat PDF
+       - Fitur bawaan browser
+         - Karena sekarang browser-browser saat ini itu sudah mampu mengubah halaman web kita menjadi PDF
+       - Library PHP
+         - Bisa menggunakan library atau source code yang sudah dibuat oleh orang lain, yaitu dengan Cara
+           - FPDF
+           - mPDF
+           - DOMPDF
+           - dll
+   - MPDF
+     - Adalah termasuk library yang support sintaks CSS walaupun tidak semua sintaks
+
+2. Ringkasan
+   - Atribut for harus sama value nya dengan id, supaya jika label ditekan maka input akan aktif
+   - Tag baru di bahasa HTML5 selain input yang berfungsi sebagai tombol adalah tag button
+   - Untuk mengisi data di dalam elemen form ubah kita bisa mengisi atribut elemen html bernama value
+   - ID tidak boleh diganti karena id adalah primary key yang tidak boleh diduplikat datanya, jika diduplikat maka akan error
+   - Dengan menggunakan like pada SQL istilahnya kita dapat menambahkan wildcard, artinya tidak perduli apapun nama depan setelah yang diketik,
+     artinya apapun yang nama depannya sama maka akan tampil semua text yang nama depannya sama jika diketik dalam kolom pencarian
+   - Untuk membuat nama depan dan nama belakang dapat dicari pada kolom pencarian maka menggunakan wildcard 2x setelah LIKE %$namaVariabel%
+   - Untuk membuat backslash tidak masuk kedalam database atau membersihkan database maka kita harus menggunakan stripslashes 
+   - Untuk membuat karakter text menjadi huruf kecil ketika di input maka kita harus mengunakan strtolower
+   - Untuk memungkinkan user memasukkan password terdapat tanda kutipnya, dan tanda kutipnya akan dimasukkan kedalam database secara aman menggunakan mysqli_real_escape_string()
+   - Live Search itu adalah pencarian instan ketika kita mencari data mahasiswa berdasarkan keyword tertentu jadi begitu ditekan sebuah keyword pada kolom pencarian
+     maka automatis akan dilakukan proses ajax ke sebuah sumber dan sebuah sumber tersebut akan mengembalikan hasil pencariannya setiap kita mengetikkan seebuah tombol di keyboard

@@ -1,0 +1,58 @@
+---- Keterangan Latihan 20 ----
+
+1. Pengertian
+   - Pagination
+     - Adalah sebuah teknik untuk membatasi data yang tampil di halaman web menjadi beberapa halaman
+     - Misalnya dengan menggunakan limit, kita bisa batasi mau berapa data yang ditampilkan dalam tiap slide
+     - count
+       - Untuk menghitung ada berapa elemen yang ada di dalam array associative / array apapun
+     - round
+       - Untuk membulatkan bilangan pecahan ke desimal terdekatnya
+     - floor
+       - Untuk menghitung pembulatan kebawah berapapun nilai pecahannya
+     - Ceiling
+       - Untuk menghitung pembulatan keatas berapapun nilai pecahannya
+   - Live Search
+     - Adalah fitur pencarian yang hasilnya ditampikan secara langsung, jadi dengan menggunakan live search pada saat
+       kita mengetikkan keyword pencariannya, maka datanya akan automati tampil, jadi kita tidak membutuhkan lagi tombol cari 
+     - Fitur live search ini banyak sekali digunkan oleh aplikasi-aplikasi yang sudah ada, yang paling sering digunakan fitur
+       live search di google, pada saat mencari pada search engine google, dan begitu mengetikkan keyword pencariannya biasanya
+       dibawah text field pencariannya itu sudah ada hasil pencariannya
+     - Untuk menampilkan fitur live search ini kita akan menggunakan konsep atau teknologi Ajax
+     - Ajax adalah sebuah teknologi "Asyncronous Javascript anda XML", walaupun mungkin sekarang singkatan ini sudah tidak relevan lagi
+       karena kita tidak akan menggunakan XML walaupun di singkatan nya ada XML nya, karena kenapa ajax juga dapat dituliskan menjadi ajax
+       huruf kecil, karena ajax itu sudah istilah bukan lagi singkatan
+       - Asyncronous
+         - Artinya tidak singkatan
+         - Javascript dan XML
+           - Artinya pada saat kita mengakses sebuah website setidaknya website yang telah kita buat, kita pasti punya proses request dan response,
+             pada saat kita mengakses sebuah halaman kita akan merequest isi halaman website tersebut ke server, pada saat kita mencari juga sama, kita merequest
+             ke server lalu server akan meresponse hasil pencariannya, dan pada saat kita menambahkan data yang kita lakukan artinya kita merequest ke server
+             kemudian setelah server mengelola datanya dia mengembalikan response, artinya ada proses request dan response
+           - Proses reuqest dan response yang kita lakukan sebelumnya itu singkron kita sebutnya, kenapa singkron ?, karena begitu kita meminta sesuatu ke server
+             dan server mengembalikan hasilnya, maka halamannya itu akan di refresh seluruh kontennya
+       - XMLHttpRequest()
+         - Object inilah yang nantinya akan mengelola request kita menggunakan teknik Ajax, dan object ini sudah ada di dalam kebanyakn browser walaupun ada browser
+           yang tidak memiliinya
+         - Untuk memahami konsep ajax ini dan mengimplementasikannya ke dalam aplikasi kita, harus memahami
+           - Javascript Dasar
+             - Karena ajax javascript
+           - DOM (Document Object Model)
+             - Bagaimana kita bisa memamnipulasi elemen HTML yang ada di halaman menggunakan javascript
+   - Keypress
+     - Berfungsi untuk ketika kita mengetik sesuatu didalam inputnya
+   - Keyup
+     - Berfungsi untuk ketika kita melepaskan tangan dari keyboard nya
+
+
+2. Ringkasan
+   - Atribut for harus sama value nya dengan id, supaya jika label ditekan maka input akan aktif
+   - Tag baru di bahasa HTML5 selain input yang berfungsi sebagai tombol adalah tag button
+   - Untuk mengisi data di dalam elemen form ubah kita bisa mengisi atribut elemen html bernama value
+   - ID tidak boleh diganti karena id adalah primary key yang tidak boleh diduplikat datanya, jika diduplikat maka akan error
+   - Dengan menggunakan like pada SQL istilahnya kita dapat menambahkan wildcard, artinya tidak perduli apapun nama depan setelah yang diketik,
+     artinya apapun yang nama depannya sama maka akan tampil semua text yang nama depannya sama jika diketik dalam kolom pencarian
+   - Untuk membuat nama depan dan nama belakang dapat dicari pada kolom pencarian maka menggunakan wildcard 2x setelah LIKE %$namaVariabel%
+   - Untuk membuat backslash tidak masuk kedalam database atau membersihkan database maka kita harus menggunakan stripslashes 
+   - Untuk membuat karakter text menjadi huruf kecil ketika di input maka kita harus mengunakan strtolower
+   - Untuk memungkinkan user memasukkan password terdapat tanda kutipnya, dan tanda kutipnya akan dimasukkan kedalam database secara aman menggunakan mysqli_real_escape_string()

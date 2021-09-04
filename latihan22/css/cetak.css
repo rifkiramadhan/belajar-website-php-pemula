@@ -1,0 +1,8 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Membuat baris tabel cetak yang genap warnanya berbeda */
+tr:nth-child(even) {
+    background-color: #ddd;
+}
